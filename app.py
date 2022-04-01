@@ -1,6 +1,6 @@
 """app.py: A Flask app that interacts with a React app and can be deployed to Heroku"""
-__author__ = "Jared McArthur"
-__date__ = "11/01/2021"
+__author__ = "William Wooten"
+__date__ = "03/31/22"
 
 from flask import Flask, jsonify
 from flask.helpers import send_from_directory
