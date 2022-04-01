@@ -28,7 +28,7 @@ def serverRequest(firstname : str):
 
 # Input: A hyphenated first and last name pair to add to the dictionary
 # Output : a message signaling if was a sucess or failure
-@app.route("/addnames/<names>", methods = ["Get"])
+@app.route("/addnames/<names>", methods = ["GET"])
 def serverAddNames(names : str):
     # Separate the names into firstname and lastname
     names = names.split("-")
